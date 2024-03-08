@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('image.jpg'); /* Replace with the actual image URL */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.account-details,
+.progress-section,
+.alerts-section {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+}
+
+.details-item,
+.progress-item,
+.alert-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.item-label {
+    font-weight: bold;
+}
